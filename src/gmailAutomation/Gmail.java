@@ -45,12 +45,12 @@ public static WebDriver driver;
 		gmail.openLink("https://mail.google.com/");
 		
 		// Entering email address in required field and clicking next
-		gmail.sendKeys("id", "identifierId", "vj.vns1707");
+		gmail.sendKeys("id", "identifierId", "use your gmail id");
 		driver.findElement(By.id("identifierNext")).click();
 		gmail.waitTime(5);
 		
 		// Entering password in required field and clicking next
-		gmail.sendKeys("css", "#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input", "**********");
+		gmail.sendKeys("css", "#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input", "use your gmail password");
 		driver.findElement(By.id("passwordNext")).click();
 		gmail.waitTime(5);
 		
